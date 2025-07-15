@@ -4,7 +4,7 @@ import requests
 from datetime import datetime
 
 # === CONFIG ===
-API_TOKEN = "7964849012:AAHfRYrJZJsJljNwlozgx4qqDQw1MpZo9iI"
+API_TOKEN =  os.getenv("API_TOKEN")
 ADMIN_ID = 7060255401
 ADMIN_CHANNEL_ID = -1002566950303
 OPENROUTER_API_KEY = "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"
